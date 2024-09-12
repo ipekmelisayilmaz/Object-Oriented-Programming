@@ -1,6 +1,21 @@
 @startuml Class Diagram 
 title Product Model 
 class Product{
+    -name:string
+    -price:float 
+    -quantity:int 
+    --
+    +getName():string
+    +getPrice():float
+    +getQuantity():int
+    --
+    +setName(value:string)
+    +setPrice(value:float)
+    +setQuantity(value:int)
+    --
+    +Product(name:string, price:float, quantity:int)
+    --
+    +getTotalPrice():float
     
 }
-@enduml 
+@enduml
