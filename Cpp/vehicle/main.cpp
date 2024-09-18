@@ -1,5 +1,6 @@
 #include <iostream>
 //using std::string;
+#include<string>
 using namespace std;
 class Vehicle
 {
@@ -46,17 +47,21 @@ Vehicle(string manufacturer,int year,string color): Vehicle() //parametresiz fon
     this->color=color;
 
 }
-void start()
+virtual void start()
 {
 cout<<"Vehicle has been started"<<endl;
 }
-void stop()
+virtual void stop()
 {
  cout<<"Vehicle has been stopped"<<endl;   
 }
-void drive()
+virtual void drive()
 {
-    cout<<"Vehicle is driving..."<<endl;
+    cout<<"Vehicle is being driven.."<<endl;
+}
+virtual string toString()
+{
+    return manufacturer+" - "+ to_string(year)+"-"+ color;
 }
 
 };
@@ -76,6 +81,10 @@ void openSunroof()
 {
     cout<< "The sunroof has been opened. " <<endl;
 }
+void drive() override
+{
+cout<<"The car manufacturer by : "<<this -> manufacturer<<" is being driven"<<endl;
+}
 };
 class Bus: public Vehicle
 {
@@ -90,6 +99,10 @@ void scheduling()
 {
     cout<<"Scheduled"<<endl;
 }
+void drive() override
+{
+cout<<"The bus manufacturer by : "<<this -> manufacturer<<" is being driven"<<endl;
+}
 };
 class SchoolBus: public Bus
 {
@@ -103,7 +116,10 @@ void getFare()
 {
     cout<<"getFare() has been called"<<endl;
 }
-
+void drive() override
+{
+cout<<"The schoolbus manufacturer by : "<<this -> manufacturer<<" is being driven"<<endl;
+}
 };
 class Truck :public Vehicle
 {
@@ -126,32 +142,46 @@ int main()
     Vehicle item2 =  Vehicle("Skoda",2019,"White");//vehicle'den üretildi
      cout<< "Vehicle " << item2.getManufacturer() << endl;
 
-    Car item1 =  Car();//car'dan üretildi
-    item1.setManufacturer("TOGG") ;//araç bilgisi verildi
-    cout<< "Vehicle " << item1.getManufacturer() /*ekrana yazdırıldı*/ << endl;
+    Car item1 =  Car("TOGG",2023,"red");//car'dan üretildi
+    //item1.setManufacturer("TOGG") ;//veya bu şekilde
+   // item1.setYear(2023); veya bu şekilde
+    //item1.setColor("red"); veya bu şekilde
+    cout<<  item1.toString() /*ekrana yazdırıldı*/ << endl;
     item1.openSunroof();
-    item1.start();
+
 
 
     Car item3 =  Car("Opel",2020,"blue");//car'dan üretildi
-    cout<< "Vehicle " << item3.getManufacturer() /*ekrana yazdırıldı*/ << endl;
+    cout<< item3.toString() /*ekrana yazdırıldı*/ << endl;
     item3.openSunroof();
 
      Bus item4 =  Bus("Megane",2022,"black");
-    cout<< "Vehicle " << item4.getManufacturer() /*ekrana yazdırıldı*/ << endl;
+    cout<< item4.toString() /*ekrana yazdırıldı*/ << endl;
     item4.scheduling();
     
     SchoolBus item5 = SchoolBus("Isuzu",2015,"Yellow");
-    cout<< "Vehicle " << item5.getManufacturer() /*ekrana yazdırıldı*/ << endl;
+    cout<< item5.toString() /*ekrana yazdırıldı*/ << endl;
     item5.scheduling();
     item5.getFare();
 
     Truck item6 = Truck("RangeRover",2022,"white");
     cout<< "Vehicle " << item6.getManufacturer() /*ekrana yazdırıldı*/ << endl;
     item6.transport();
-    item6.start();
-    item6.stop();
     cout<<item6.getManufacturer()<<endl;
+
+    item1.drive();
+    item1.stop();//virtual edildi ama override edilmek zorunda değil
+
+    item3.drive();
+    item3.stop();//virtual edildi ama override edilmek zorunda değil
+
+    item4.drive();
+    item4.stop();//virtual edildi ama override edilmek zorunda değil
+
+    item5.drive();
+    item5.stop();//virtual edildi ama override edilmek zorunda değil
+
+    
 
     char c = getchar();
 
