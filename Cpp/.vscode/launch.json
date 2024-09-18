@@ -1,0 +1,104 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Bash on Windows Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "pipeTransport": {
+                "debuggerPath": "/usr/bin/gdb",
+                "pipeProgram": "${env:windir}\\system32\\bash.exe",
+                "pipeArgs": ["-c"],
+                "pipeCwd": ""
+            },
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Attach",
+            "type": "cppdbg",
+            "request": "attach",
+            "program": "enter program name, for example ${workspaceFolder}/a.exe",
+            "MIMode": "gdb",
+            "miDebuggerPath": "/path/to/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                },
+                {
+                    "description": "Set Disassembly Flavor to Intel",
+                    "text": "-gdb-set disassembly-flavor intel",
+                    "ignoreFailures": true
+                }
+            ]
+        },
+        {
+            "name": "(gdb) Launch", // Bu isim VS Code'da gözükecek
+            "type": "cppdbg", // C++ debug türü
+            "request": "launch", // Başlatma isteği
+            "program": "${workspaceFolder}/vehicle/main.exe", // Çalıştırılacak program (ana .exe dosyanın yolu)
+            "args": [], // Programın argümanları, şu anda boş
+            "stopAtEntry": false, // Program hemen başlarken durmasın
+            "cwd": "${workspaceFolder}", // Programın çalışma dizini
+            "environment": [], // Çevre değişkenleri, şu an boş
+            "externalConsole": false, // Harici konsol açılmasın
+            "MIMode": "gdb", // GNU Debugger (GDB) kullanılıyor
+            "miDebuggerPath": "C:/mingw64/bin/gdb.exe", // GDB'nin yolu, MinGW'nin kurulu olduğu dizini kontrol et!
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb", // Debug çıktılarının okunabilirliği
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++ build active file", // Çalıştırılmadan önce derleme görevi çalıştırılır
+            "logging": {
+                "engineLogging": true // Hata ayıklama günlüğü aktif
+            }
+        }
+    ]
+}
+

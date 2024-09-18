@@ -1,5 +1,6 @@
 @startuml Inheritance
 title Vehicle
+
 class Vehicle{
 #manufacturer:String
 #year:int
@@ -8,15 +9,19 @@ class Vehicle{
 +stop()
 +drive()
 }
+
 class Car extends Vehicle{
 +openSunroof()
 }
+
 class Truck extends Vehicle{
 +transport()
 }
+
 class Bus extends Vehicle{
 +scheduling()
 }
+
 class SchoolBus extends Bus{
  +getFare()
 }
