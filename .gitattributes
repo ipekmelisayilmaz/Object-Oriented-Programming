@@ -1,5 +1,5 @@
-*.cs linguist-detectable=true
-*.py linguist-detectable=true
-*.cpp linguist-detectable=true
-*.java linguist-detectable=true
-*.ipynb linguist-detectable=true
+*.cs linguist-language=CSharp
+*.py linguist-language=Python
+*.cpp linguist-language=C++
+*.java linguist-language=Java
+
