@@ -1,4 +1,4 @@
 
 public interface ElectronicInstrument {
-    void tune();
+    void tune();//interfacede method imzası var içerik yok
   }

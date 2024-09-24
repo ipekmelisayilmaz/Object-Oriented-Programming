@@ -6,7 +6,7 @@ public class Guitar implements Instrument, ElectronicInstrument {
     }
 
     public void setChord() {
-        System.out.println("The guitar has been tunned.");
+        System.out.println("The guitar has been tunned.");//instrumenapp klasöründeki guitar classında tanımlanan public metod
     }
 
     @Override
