@@ -23,5 +23,5 @@ Projeyi detaylı incelemek için [buraya](https://github.com/ipekmelisayilmaz/Ob
 
 Proje, [ipekmelisayilmaz](https://github.com/ipekmelisayilmaz) tarafından oluşturulmuştur.
 
-
+Konuyla ilgili medium yazım : https://medium.com/@ipekmelisayilmaz/c-dilinde-oop-nesne-y%C3%B6nelimli-programlaman%C4%B1n-temel-i%CC%87lkeleri-3e9296c7dda6
 
