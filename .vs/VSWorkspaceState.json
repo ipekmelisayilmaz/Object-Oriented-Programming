@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Csharp"
+    "\\Csharp",
+    "\\Csharp\\StackApp",
+    "\\Csharp\\StackApp\\StackApp",
+    "\\Csharp\\StackApp\\StackApp\\Models"
   ],
-  "SelectedNode": "\\Csharp",
+  "SelectedNode": "\\Csharp\\StackApp\\StackApp.sln",
   "PreviewInSolutionExplorer": false
 }

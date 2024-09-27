@@ -7,31 +7,52 @@ using System.Threading.Tasks;
 
 namespace StackApp.Models
 {
-    public class LinkedListStack : IStack
+    public class LinkedListStack<T> : IStack<T>
+    where T : IComparable
     {
-        private LinkedList<object> _collection;//Bu liste herhangi bir türde (object türünde) nesneleri tutabilen bir bağlantılı listedir
-                                               //Bu ifadenin başlatılması gerekir, kurucu metot içerisinde bu işlem gerçekleştirilebilir
-        public LinkedListStack()
+        public T Peek()
         {
-            _collection = new LinkedList<object>();//bir örneği oluşturuldu
+            throw new NotImplementedException();
         }
-        public object Peek()
+
+        public T Pop()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Push(T item)
+        {
+            throw new NotImplementedException();
+        }
+    }
+    
+      /*  private LinkedList<T> _collection;//Bu liste herhangi bir türde (object türünde) nesneleri tutabilen bir bağlantılı listedir
+                                          //Bu ifadenin başlatılması gerekir, kurucu metot içerisinde bu işlem gerçekleştirilebilir
+    public LinkedListStack()
+        {
+            _collection = new LinkedList<T>();//bir örneği oluşturuldu
+        }
+        public T Peek()
         {
             return _collection.First.Value;
         }
 
-        public object Pop()
+    public T Pop
+    {
+        get
         {
             var temp = _collection.First.Value;
             _collection.RemoveFirst();//void bir fonk oldugundan değer döndürmez.
             return temp;                        //silinen elemanı geri döndürmek için farklı bir değişkende tutulmalı
-         
-        }
 
-        public void Push(object item)
+        }
+    }
+
+    public void Push(T item)
         {
             _collection.AddFirst(item);//AddFirst fonksiyonu, LinkedList<T> sınıfında kullanılan bir metottur.
                                        //Bu metot, bir bağlantılı listenin başına yeni bir öğe eklemek için kullanılır
-        }
-    }
+        }*/
+
 }
+

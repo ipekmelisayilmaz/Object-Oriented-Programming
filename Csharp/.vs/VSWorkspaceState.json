@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\StackApp",
+    "\\StackApp\\StackApp",
+    "\\StackApp\\StackApp\\bin",
+    "\\StackApp\\StackApp\\Contract",
+    "\\StackApp\\StackApp\\Models"
   ],
+  "SelectedNode": "\\StackApp\\StackApp.sln",
   "PreviewInSolutionExplorer": false
 }

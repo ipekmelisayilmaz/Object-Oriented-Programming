@@ -3,7 +3,11 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|c:\\users\\dell\\desktop\\object oriented programming\\csharp\\stackapp\\stackapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\StackApp\\Models\\LinkedListStack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|solutionrelative:StackApp\\Models\\LinkedListStack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\stackapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|solutionrelative:stackapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,12 +15,12 @@
       "RelativeMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|solutionrelative:stackapp\\contract\\istack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|c:\\users\\dell\\desktop\\object oriented programming\\csharp\\stackapp\\stackapp\\models\\liststack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|solutionrelative:stackapp\\models\\liststack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\StackApp\\Models\\ListStack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|solutionrelative:StackApp\\Models\\ListStack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|c:\\users\\dell\\desktop\\object oriented programming\\csharp\\stackapp\\stackapp\\models\\linkedliststack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|solutionrelative:stackapp\\models\\linkedliststack.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\stackapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{78ED5B2C-6E14-48C2-8A81-9A514925C110}|StackApp\\StackApp.csproj|solutionrelative:stackapp\\models\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,52 +54,65 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "Employee.cs",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\StackApp\\Models\\Employee.cs",
+              "RelativeDocumentMoniker": "StackApp\\Models\\Employee.cs",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\StackApp\\Models\\Employee.cs",
+              "RelativeToolTip": "StackApp\\Models\\Employee.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-26T15:02:55.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ListStack.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\StackApp\\Models\\ListStack.cs",
               "RelativeDocumentMoniker": "StackApp\\Models\\ListStack.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\StackApp\\Models\\ListStack.cs",
               "RelativeToolTip": "StackApp\\Models\\ListStack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T19:30:57.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "LinkedListStack.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\StackApp\\Models\\LinkedListStack.cs",
               "RelativeDocumentMoniker": "StackApp\\Models\\LinkedListStack.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\StackApp\\Models\\LinkedListStack.cs",
               "RelativeToolTip": "StackApp\\Models\\LinkedListStack.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwAsAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwDYAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T18:30:56.478Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "IStack.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\StackApp\\Contract\\IStack.cs",
               "RelativeDocumentMoniker": "StackApp\\Contract\\IStack.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\StackApp\\Contract\\IStack.cs",
               "RelativeToolTip": "StackApp\\Contract\\IStack.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABdAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T14:22:31.045Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\StackApp\\Program.cs",
               "RelativeDocumentMoniker": "StackApp\\Program.cs",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Object Oriented Programming\\Csharp\\StackApp\\StackApp\\Program.cs",
               "RelativeToolTip": "StackApp\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAACYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-24T13:45:03.934Z",
               "EditorCaption": ""

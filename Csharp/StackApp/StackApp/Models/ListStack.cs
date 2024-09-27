@@ -7,21 +7,22 @@ using System.Threading.Tasks;
 
 namespace StackApp.Models
 {
-    public class ListStack : IStack
+    public class ListStack<T> : IStack<T>
+    where T : IComparable
     {
-        private List<object> _collection;
+        private List<T> _collection; //private değişken tanımı sebebiyle _ eklendi
         private int _lastIndex => _collection.Count - 1;
         public ListStack()
         {
-            _collection = new List<object>();
+            _collection = new List<T>();
         }
 
-        public object Peek()
+        public T Peek()
         {
             return _collection[_lastIndex];
         }
 
-        public object Pop()                     
+        public T Pop()                     
         {
             var temp = _collection[_lastIndex];
             _collection.RemoveAt(_lastIndex);
@@ -29,7 +30,7 @@ namespace StackApp.Models
 
         }
 
-        public void Push(object item)
+        public void Push(T item)
         {
             _collection.Add(item);
         }

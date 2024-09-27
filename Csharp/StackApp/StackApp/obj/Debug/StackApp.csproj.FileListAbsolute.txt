@@ -1,0 +1,7 @@
+C:\Users\DELL\Desktop\Object Oriented Programming\Csharp\StackApp\StackApp\obj\Debug\StackApp.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\Object Oriented Programming\Csharp\StackApp\StackApp\obj\Debug\StackApp.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\Object Oriented Programming\Csharp\StackApp\StackApp\bin\Debug\StackApp.exe.config
+C:\Users\DELL\Desktop\Object Oriented Programming\Csharp\StackApp\StackApp\bin\Debug\StackApp.exe
+C:\Users\DELL\Desktop\Object Oriented Programming\Csharp\StackApp\StackApp\bin\Debug\StackApp.pdb
+C:\Users\DELL\Desktop\Object Oriented Programming\Csharp\StackApp\StackApp\obj\Debug\StackApp.exe
+C:\Users\DELL\Desktop\Object Oriented Programming\Csharp\StackApp\StackApp\obj\Debug\StackApp.pdb

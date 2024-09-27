@@ -44,8 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Contract\IStack.cs" />
+    <Compile Include="Models\Employee.cs" />
     <Compile Include="Models\LinkedListStack.cs" />
     <Compile Include="Models\ListStack.cs" />
+    <Compile Include="Models\T.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
